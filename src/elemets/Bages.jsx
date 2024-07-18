@@ -10,16 +10,13 @@ const Bages = ({ children }) => {
 
 
 // eslint-disable-next-line react/prop-types
-const Descriptions = ({ title, types, icon, className }) => {
+const Descriptions = ({ title, types,}) => {
     return (
         <div>
             <span className="mt-[-10px]">
                 <p className="font-[600]">{title}</p>
                 <p>{types}</p>
             </span>
-            <div className={`flex justify-center items-center bg-gray-700 rounded-[5px] w-[50px] -translate-y-4 ${className}`}>
-                {icon}
-            </div>
         </div>
     )
 }
