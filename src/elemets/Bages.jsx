@@ -1,42 +1,55 @@
 // eslint-disable-next-line react/prop-types
-const CardProducts = ({ Children }) => {
+const Bages = ({ children }) => {
     return (
         <div
             className="shrink-0 border p-4 w-[200px] rounded-[10px] relative shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:border-2 hover:border-gray-300">
-            {Children}
+            {children}
         </div>
     )
 }
 
 
 // eslint-disable-next-line react/prop-types
-const Descriptions = ({ Title, Types }) => {
+const Descriptions = ({ title, types, icon, className }) => {
     return (
-        <span>
-            <p className="font-[700]">{Title}</p>
-            <p className="text-gray-500">{Types}</p>
-        </span>
-    )   
+        <div>
+            <span className="mt-[-10px]">
+                <p className="font-[600]">{title}</p>
+                <p>{types}</p>
+            </span>
+            <div className={`flex justify-center items-center bg-gray-700 rounded-[5px] w-[50px] -translate-y-4 ${className}`}>
+                {icon}
+            </div>
+        </div>
+    )
 }
 
 // eslint-disable-next-line react/prop-types
-const Prices = ({ Price }) => {
+const Prices = ({ price, amount, icon, className }) => {
     return (
-        <p className="text-red-700 font-[600]">{Price}</p>
+        <div className="flex justify-between items-center">
+            <span className="flex mt-[-10px]">
+                <p className="text-red-700 font-[600]">{price}</p>
+                <p>{amount}</p>
+            </span>
+            <div className={`flex justify-center items-center bg-gray-700 p-[2px] rounded-[5px] w-[50px] -translate-y-4 ${className}`}>
+                {icon}
+            </div>
+        </div>
     )
 }
 
 // eslint-disable-next-line react/prop-types
 const Icons = ({ icon, className }) => {
     return (
-        <div className={`flex justify-center items-center gap-[20px] absolute bottom-[-19px] ${className}`}>
+        <div className={`${className}`}>
             {icon}
         </div>
     )
 }
 
-CardProducts.Icons = Icons
-CardProducts.Descriptions = Descriptions
-CardProducts.Prices = Prices
+Bages.Icons = Icons
+Bages.Descriptions = Descriptions
+Bages.Prices = Prices
 
-export default CardProducts
+export default Bages
