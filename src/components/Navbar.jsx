@@ -1,6 +1,8 @@
 import avatar from '../../public/image/nico.jpg'
 
 import { FaBarsStaggered } from "react-icons/fa6";
+import { FaRegBell } from "react-icons/fa";
+
 
 export default function Navbar() {
     return (
@@ -11,7 +13,7 @@ export default function Navbar() {
                 <p>Hi, John</p>
             </div>
             <div className="flex justify-center items-center gap-[10px] sm:ml-[20px]">
-                <i className="fa-regular fa-bell text-[1.8rem] rounded-full border border-gray-300 p-[4px]"></i>
+                <FaRegBell size={45} className="text-[1.8rem] rounded-full border border-gray-300 p-[4px]"/>
                 <img className="w-[50px] rounded-full border border-gray-300 p-[4px]" src={avatar}
                     alt=""/>
             </div>
