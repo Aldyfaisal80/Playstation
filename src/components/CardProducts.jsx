@@ -14,33 +14,144 @@ export default function CardProducts() {
             <Bages>
                 <img className="aspect-square mb-[30px]" src={ds1} alt="" />
                 <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
-                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart className='text-white p-[10px]' />} />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
                 <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
-                    <Bages.Icons icon={<HiXMark className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
-                    <Bages.Icons icon={<FaStar className="border-gray-300 text-red-700 bg-white text-[1.2rem] rounded-full" />} />
-                    <Bages.Icons icon={<FaCheck className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
                     />} />
                 </div>
             </Bages>
             <Bages>
                 <img className="aspect-square mb-[30px]" src={ds1} alt="" />
                 <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
-                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart className='text-white p-[10px]' />} />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
                 <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
-                    <Bages.Icons icon={<HiXMark className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
-                    <Bages.Icons icon={<FaStar className="border-gray-300 text-red-700 bg-white text-[1.2rem] rounded-full" />} />
-                    <Bages.Icons icon={<FaCheck className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
                     />} />
                 </div>
             </Bages>
             <Bages>
                 <img className="aspect-square mb-[30px]" src={ds1} alt="" />
                 <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
-                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart className='text-white p-[10px]' />} />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
                 <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
-                    <Bages.Icons icon={<HiXMark className="flex justify-center items-center w-[20px] h-[20px] bg-white text-[0.8rem] text-gray-500 rounded-full border-2 border-gray-200" />} />
-                    <Bages.Icons icon={<FaStar className="flex justify-center items-center w-[40px] h-[40px] bg-white text-[1.5rem] text-red-600 rounded-full border-4 border-gray-100" />} />
-                    <Bages.Icons icon={<FaCheck className="flex justify-center items-center w-[20px] h-[20px] bg-white text-[0.8rem] text-gray-500 rounded-full border-2 border-gray-200" />} />
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
+                </div>
+            </Bages>
+            <Bages>
+                <img className="aspect-square mb-[30px]" src={ds1} alt="" />
+                <Bages.Descriptions title="Solar Red Joystick" types="Accessories" />
+                <Bages.Prices price="$233" amount="/Pcs" icon={<FaShoppingCart size={35} className='text-white p-[7px]' />} />
+                <div className="flex justify-center items-center gap-[20px] absolute bottom-[-19px]">
+                    <Bages.Icons  icon={<HiXMark size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]" />} />
+                    <Bages.Icons icon={<FaStar size={40} className="border-4 border-gray-300 text-red-700 bg-white p-[2px] rounded-full" />} />
+                    <Bages.Icons icon={<FaCheck size={35} className="border-4 border-gray-300 rounded-full bg-white px-[6px] py-[4px]"
+                    />} />
                 </div>
             </Bages>
         </div>

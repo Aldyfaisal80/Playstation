@@ -1,5 +1,7 @@
 import avatar from '../../public/image/nico.jpg'
 
+import { FaBarsStaggered } from "react-icons/fa6";
+
 export default function Navbar() {
     return (
         <header className="sm:flex sm:flex-row-reverse sm:grow ">
@@ -22,6 +24,7 @@ export default function Navbar() {
                 <button type="reset"><i className="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div className="flex justify-center items-center bg-red-700 p-[15px] rounded-[5px] w-[50px]">
+                <FaBarsStaggered className="text-white"/>
                 <i className="fa-solid fa-bars-staggered text-white "></i>
             </div>
         </section>
